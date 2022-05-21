@@ -1,0 +1,171 @@
+* {
+  margin: none;
+  padding: none;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-image: url("https://tse4.mm.bing.net/th?id=OIP.33sohT0QZYq2j0kk_gIYPwHaFb&pid=Api&P=0&w=231&h=169");
+  background-position: center;
+  background-repeat: none;
+  background-size: contain;
+}
+.flexer1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.navtext {
+  padding: 0.4rem;
+  margin: 0.4rem;
+  border: 2px solid red;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: yellow;
+}
+
+.navtext:hover {
+  background-color: rgb(255, 72, 6) !important;
+}
+
+.navbar {
+  background-color: rgb(32, 32, 213);
+}
+
+.hmimg img {
+  width: 20rem;
+  height: 16rem;
+  border: 2px solid red;
+  border-radius: 2rem;
+  margin: 0.4rem;
+  padding: 0.4rem;
+}
+.hmimg:hover {
+  background-color: red;
+  border-radius: 0.5rem;
+}
+.flexer2 {
+  display: flex;
+  justify-content: center;
+}
+
+.cardflex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  border: 2px solid orange;
+  border-radius: 0.6rem;
+  margin: 0.2rem;
+  padding: 0.4rem;
+  cursor: pointer;
+}
+
+.cardflex img {
+  width: 12rem;
+  height: 8rem;
+}
+
+.cardflex:hover {
+  background-color: yellow;
+}
+
+.donatebtn {
+  background-color: red;
+  color: yellow;
+  border-radius: 0.5rem;
+  margin: 0.1rem;
+  padding: 0.2rem;
+  width: 6rem;
+}
+
+.inputwrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border: 2px solid orange;
+  border-radius: 0.5rem;
+  border-style: groove;
+}
+
+.inputwrap input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 2px solid red;
+  border-radius: 0.5rem;
+}
+
+.inputwrap h2 {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.receipt .textpart {
+  padding: 0.3rem;
+  margin: 0.2rem;
+  border: 2px solid orange;
+  border-radius: 0.4rem;
+  border-style: dashed;
+  width: 80% !important;
+}
+
+.receipt:hover {
+  background-color: yellow;
+}
+
+.receipt:hover .textpart {
+  background-color: orange;
+  color: red;
+}
+
+.receipt:hover .textpart h6 {
+  border: none;
+  border-bottom: 2px solid yellow;
+  border-bottom-style: dashed;
+}
+
+.header {
+  color: blue;
+  animation: changeme 2s infinite;
+}
+@keyframes changeme {
+  10% {
+    border-bottom: 2px solid red;
+    border-bottom-style: dashed;
+  }
+  30% {
+    border-bottom: 2px solid rgb(201, 51, 51);
+    border-bottom-style: double;
+  }
+  50% {
+    border-bottom: 2px solid orange;
+    border-bottom-style: dotted;
+  }
+  70% {
+    border-bottom: 2px solid rgb(3, 99, 255);
+    border-bottom-style: double;
+  }
+  100% {
+    border-bottom: 2px solid rgb(0, 255, 255);
+    border-bottom-style: dashed;
+  }
+}
+
+.donatentn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 2px solid orange;
+  background-color: yellow;
+  color: red;
+  border-radius: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.donatebtn button {
+}
